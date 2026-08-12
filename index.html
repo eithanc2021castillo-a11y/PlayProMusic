@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PlayProMusic</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #08060c;
+      color: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 600px;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 220px;
+      max-width: 70%;
+      height: auto;
+      display: block;
+      margin: 0 auto 30px;
+      border-radius: 8px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin: 0 0 18px;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      font-size: 22px;
+      line-height: 1.5;
+      color: #d0ccd5;
+      margin: 0 auto 40px;
+      max-width: 500px;
+    }
+
+    .download {
+      display: inline-block;
+      width: 100%;
+      max-width: 440px;
+      padding: 20px 25px;
+      border-radius: 22px;
+      background: linear-gradient(90deg, #ff00c8, #a600ff, #3765ff);
+      color: white;
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: bold;
+      box-shadow: 0 8px 30px rgba(180, 0, 255, 0.25);
+      transition: transform 0.2s ease;
+    }
+
+    .download:hover {
+      transform: scale(1.02);
+    }
+
+    .version {
+      margin-top: 28px;
+      color: #8f8a94;
+      font-size: 17px;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 30px 18px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .subtitle {
+        font-size: 20px;
+      }
+
+      .download {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <img
+      src="logo.png"
+      alt="PlayProMusic"
+      class="logo"
+    >
+
+    <h1>PlayProMusic</h1>
+
+    <p class="subtitle">
+      Tu música. Tu estilo. Tu reproductor.
+    </p>
+
+    <a
+      class="download"
+      href="https://raw.githubusercontent.com/eithanc2021castillo-a11y/PlayProMusic/main/PlayProMusic.apk"
+      download="PlayProMusic.apk"
+    >
+      ⬇️ Descargar PlayProMusic
+    </a>
+
+    <div class="version">
+      Versión 1.0 · Android
+    </div>
+
+  </main>
+
+</body>
+</html>
