@@ -35,7 +35,7 @@ Reproductor de música moderno para Android, diseñado para disfrutar de tu mús
 2. Abre el archivo APK en tu dispositivo Android.
 3. Permite la instalación si Android lo solicita.
 4. Instala y disfruta de **PlayProMusic**.
-5. [⬇️ Descargar PlayProMusic.apk](https://raw.githubusercontent.com/eithanc2021castillo-a11y/PlayProMusic/7a4efe1d2bdcf0d666d0d8742a67db7a29191103/PlayProMusic.apk)
+   
 
 ## 🔐 Seguridad
 
