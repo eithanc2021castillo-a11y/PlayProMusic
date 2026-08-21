@@ -49,6 +49,6 @@ Proyecto desarrollado para ofrecer una experiencia musical sencilla, moderna y a
 
 <div align="center">
 
-**PlayProMusic · Versión 1.0**
+**PlayProMusic · Versión 1.3.4**
 
 </div>
