@@ -8,7 +8,7 @@
 
 Reproductor de música moderno para Android, diseñado para disfrutar de tu música con una interfaz elegante, fluida y colorida.
 
-**Versión:** 1.0
+**Versión:** 1.3.4
 
 <br>
 
